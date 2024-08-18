@@ -14,22 +14,26 @@ o	URL: https://petstore.swagger.io/
 •	Scenario 2: Attempt to create a pet with missing required fields.
 •	Scenario 3: Test creating a pet with duplicate ID.
 •	Scenario 4: Test creating a pet with special characters in the name.
+
 2. Read (GET)
 •	Scenario 1: Successfully retrieve pet details using a valid ID.
 •	Scenario 2: Attempt to retrieve details of a pet that does not exist.
 •	Scenario 3: Successfully retrieve pet details By Status 
 •	Scenario 4: Successfully retrieve pet details By Tag
+
 3. Update (PUT)
 •	Scenario 1: Successfully update existing pet details 
 •	Scenario 2: Attempt to update a pet that does not exist.
 •	Scenario 3: Attempt to update a pet with invalid data types.
+
 4. Delete (DELETE)
 •	Scenario 1: Successfully delete a pet using a valid ID.
 •	Scenario 2: Attempt to delete a pet that does not exist.
 •	Scenario 3: Verify the response when attempting to delete a pet with an invalid ID.
 
  **Execution of Test Cases**
- Executing test case by click on send button for each request and verify the response code 
+ Executing test case by click on send button for each request and verify the response code .
+
  **Collection Runner**:
  We can  Use Postman’s Collection Runner to execute multiple test scenarios in sequence.
 ** Reporting **:
