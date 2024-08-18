@@ -1,4 +1,4 @@
-# Technical-testing-task
+# Api-testing-task
 
 # Execution Using Postman
 
